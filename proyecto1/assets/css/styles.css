@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    
+    margin: 0px;
+    padding: 2em;
+}
+.header{
+    font-family:  sans-serif, Arial; 
+    height: 25em;
+    width: 95%;
+    background-image: url(../imgs/banner.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+.header p{
+    text-align: right;
+    color: black;
+    font-size: 3em;
+    padding-right: 2em;
+}
+.header h1{
+    text-align: right;
+    color: black;
+    font-weight: 100;
+    font-size: 5em;
+    font-weight: 600;
+    padding-top: 1em;
+    padding-right: 1em;
+}
+.productos {
+    width: 80%;
+    margin: auto;
+}
+.productos td{
+    width: 50%;
+    padding: 2em;
+}
+.imagenesprecon img {
+    width: 20em;    
+    height: auto;    
+    display: block;
+    margin: 0;
+}
+.product-info p {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+.footer {
+    background-color: #f1f1f1;
+    text-align: left;
+    padding: 1em 0em 1em 0em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.chibi {
+    width: 3em;
+    height: auto;
+    margin-right: 1em;
+    margin-top: 0;
+}
