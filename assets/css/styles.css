@@ -1,7 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 body {
-    font-family: Inter,sans-serif;    
+  font-family: Inter, sans-serif;
+}
+.navbar {
+  background-image: url(../imgs/loto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    
+}
+.navbar-toggler {
+  background-color: #24409c; 
+  border-color: #fff;     
+}
+section img{
+    border-radius: 60%;
 }
