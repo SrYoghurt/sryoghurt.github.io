@@ -20,3 +20,8 @@ body {
 section img{
     border-radius: 60%;
 }
+a{
+    text-decoration: none;
+    color: #030303bd;
+    font-weight: bold;
+}
