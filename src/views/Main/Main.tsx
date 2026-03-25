@@ -1,11 +1,13 @@
 
 
+import fotoCv from '../../assets/img/fotocv.jpg'
+
 export default function Main() {
     return (
         <div className="hero bg-base-200 min-h-screen">
             <main className="hero-content flex-col lg:flex-row-reverse">
                 <img
-                    src="../src/assets/img/fotocv.jpg"
+                    src={fotoCv}
                     className="max-w-sm rounded-lg shadow-2xl mask mask-hexagon-2"
                 />
                 <div>

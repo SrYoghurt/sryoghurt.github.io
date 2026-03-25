@@ -9,6 +9,8 @@ const skills = [
   'Node.js'
 ];
 
+import perfilSobreMi from '../../assets/img/perfilsobremi.jpg'
+
 export default function SobreMi() {
   return (
     <div className="min-h-screen bg-base-200">
@@ -19,7 +21,7 @@ export default function SobreMi() {
         <div className="flex flex-col gap-10 lg:flex-row lg:items-start">
           <div className="flex justify-center lg:shrink-0">
             <img
-              src="../src/assets/img/perfilsobremi.jpg"
+              src={perfilSobreMi}
               alt="Milton Monsalves"
               className="h-56 w-56 rounded-2xl object-cover shadow-xl"
             />
